@@ -56,7 +56,10 @@
   "eslintConfig": {
     "parserOptions": {
       "ecmaVersion": 6,
-      "sourceType": "module"
+      "sourceType": "module",
+      "rules": {
+        "line-break-style": 0
+      }
     },
     "env": {
       "es6": true,
